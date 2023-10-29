@@ -11,7 +11,7 @@ namespace PWEB_2324.Models
         [Display(Name = "Password")]
         [DataType(DataType.Password)]
         public string? Password { get; set; }
-        public string Url { get; set; }
+        public string? Url { get; set; }
        
     }
 }

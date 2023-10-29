@@ -11,6 +11,10 @@ namespace PWEB_2324.Data
             : base(options)
         {
         }
-        public DbSet<ImoveisModel> Imoveil { get; set; }
+        public DbSet<ImovelModel> ImoveilModel { get; set; }
+        public DbSet<ClientModel> ClientModel { get; set; }
+        public DbSet<EmployeeModel> EmployeeModel { get; set; }
+        public DbSet<ManagerModel> ManagerModel { get; set; }
+        public DbSet<AdminModel> AdminModel { get; set; }
     }
 }
