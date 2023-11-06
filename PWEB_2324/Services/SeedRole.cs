@@ -15,11 +15,25 @@ namespace PWEB_2324.Services
 
         public void SeedRoles()
         {
-            if (!_roleManager.RoleExistsAsync("Member").Result)
+            if (!_roleManager.RoleExistsAsync("Client").Result)
             {
                 IdentityRole role = new IdentityRole();
-                role.Name = "Member";
-                role.NormalizedName = "MEMBER";
+                role.Name = "Client";
+                role.NormalizedName = "CLIENT";
+                IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
+            }
+            if (!_roleManager.RoleExistsAsync("Employee").Result)
+            {
+                IdentityRole role = new IdentityRole();
+                role.Name = "Employee";
+                role.NormalizedName = "EMPLOYEE";
+                IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
+            }
+            if (!_roleManager.RoleExistsAsync("Manager").Result)
+            {
+                IdentityRole role = new IdentityRole();
+                role.Name = "Manager";
+                role.NormalizedName = "MANAGER";
                 IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
             }
             if (!_roleManager.RoleExistsAsync("Admin").Result)
@@ -33,13 +47,13 @@ namespace PWEB_2324.Services
 
         public void SeedUsers()
         {
-            if(_userManager.FindByEmailAsync("client").Result == null)
+            if(_userManager.FindByEmailAsync("client1").Result == null)
             {
                 IdentityUser user = new IdentityUser();
-                user.UserName = "client";
-                user.Email = "client";
-                user.NormalizedEmail = "CLIENT";
-                user.NormalizedUserName = "CLIENT";
+                user.UserName = "client1";
+                user.Email = "client1";
+                user.NormalizedEmail = "CLIENT1";
+                user.NormalizedUserName = "CLIENT1";
                 user.EmailConfirmed = true;
                 user.LockoutEnabled = false;
                 user.SecurityStamp = Guid.NewGuid().ToString();
@@ -47,10 +61,43 @@ namespace PWEB_2324.Services
                 IdentityResult result = _userManager.CreateAsync(user, "Admin2023!").Result;
                 if (result.Succeeded)
                 {
-                    _userManager.AddToRoleAsync(user, "Member").Wait();
+                    _userManager.AddToRoleAsync(user, "Client").Wait();
                 }
             }
+            if (_userManager.FindByEmailAsync("employee1").Result == null)
+            {
+                IdentityUser user = new IdentityUser();
+                user.UserName = "employee1";
+                user.Email = "employee1";
+                user.NormalizedEmail = "EMPLOYEE1";
+                user.NormalizedUserName = "EMPLOYEE1";
+                user.EmailConfirmed = true;
+                user.LockoutEnabled = false;
+                user.SecurityStamp = Guid.NewGuid().ToString();
 
+                IdentityResult result = _userManager.CreateAsync(user, "Admin2023!").Result;
+                if (result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(user, "Employee").Wait();
+                }
+            }
+            if (_userManager.FindByEmailAsync("manager").Result == null)
+            {
+                IdentityUser user = new IdentityUser();
+                user.UserName = "manager";
+                user.Email = "manager";
+                user.NormalizedEmail = "MANAGER";
+                user.NormalizedUserName = "MANAGER";
+                user.EmailConfirmed = true;
+                user.LockoutEnabled = false;
+                user.SecurityStamp = Guid.NewGuid().ToString();
+
+                IdentityResult result = _userManager.CreateAsync(user, "Admin2023!").Result;
+                if (result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(user, "Manager").Wait();
+                }
+            }
             if (_userManager.FindByEmailAsync("admin").Result == null)
             {
                 IdentityUser user = new IdentityUser();

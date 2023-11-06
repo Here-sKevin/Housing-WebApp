@@ -76,5 +76,19 @@ namespace PWEB_2324.Controllers
             }
             return View(registroM);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            //HttpContext.Session.Clear();
+            HttpContext.User = null;
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3GU1ePOcDh/GZmXayI7M2tg5+bil0tS/8Ux2nCRimtDrNHRXPEtIhrcO23y6a8QwifLM3hKoyEPGILFrYb/Rsg==",
+  "dgSpecHash": "67tiUetRN2C7jSrLmyu08rue4TzPqPGF5PbZK4Jhik1tUNNmRablfnk76QD5HVuA9N1RldOkDdaSE0tLQi/54g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\PWEB_2324\\PWEB_2324\\PWEB_2324.csproj",
+  "projectFilePath": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\2023_2024\\PWEB_2324\\PWEB_2324\\PWEB_2324.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KevinRodrigues\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\KevinRodrigues\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

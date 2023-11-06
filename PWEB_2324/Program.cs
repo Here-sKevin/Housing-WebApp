@@ -28,6 +28,18 @@ builder.Services.AddAuthorization(options =>
     {
         policy.RequireRole("Admin");
     });
+    options.AddPolicy("Client", policy =>
+    {
+        policy.RequireRole("Client");
+    });
+    options.AddPolicy("Employee", policy =>
+    {
+        policy.RequireRole("Employee");
+    });
+    options.AddPolicy("Manager", policy =>
+    {
+        policy.RequireRole("Manager");
+    });
 });
 
 var app = builder.Build();
@@ -63,6 +75,15 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "areas",
     pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Client}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Employee}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Manager}/{action=Index}/{id?}");
 // app.MapRazorPages();
 
 app.Run();
@@ -73,7 +94,7 @@ void getRoles(WebApplication app)
     using (var scope = scopedFactory.CreateScope())
     {
         var service = scope.ServiceProvider.GetService<ISeedRole>();
-        service.SeedUsers();
         service.SeedRoles();
+        service.SeedUsers();
     }
 }

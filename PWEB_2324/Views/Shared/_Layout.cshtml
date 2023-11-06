@@ -24,6 +24,22 @@
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="Index">Home</a>
+                    }
+                    @if (User.IsInRole("Manager"))
+                    {
+                        <a class="nav-link text-dark" asp-area="Manager" asp-controller="Manager" asp-action="Index">Home</a>
+                    }
+                    @if (User.IsInRole("Employee"))
+                    {
+                        <a class="nav-link text-dark" asp-area="Employee" asp-controller="Employee" asp-action="Index">Home</a>
+                    }
+                    @if (User.IsInRole("Client"))
+                    {
+                        <a class="nav-link text-dark" asp-area="Client" asp-controller="Client" asp-action="Index">Home</a>
+                    }
                 </div>
             </div>
         </nav>

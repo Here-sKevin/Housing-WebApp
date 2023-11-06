@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PWEB_2324.Data.Migrations
 {
-    public partial class Init : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -19,7 +19,7 @@ namespace PWEB_2324.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AdminModel", x => x.Admin_Id);
-                });
+                });;
 
             migrationBuilder.CreateTable(
                 name: "ClientModel",
@@ -87,6 +87,8 @@ namespace PWEB_2324.Data.Migrations
                 {
                     table.PrimaryKey("PK_ManagerModel", x => x.Manager_Id);
                 });
+
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

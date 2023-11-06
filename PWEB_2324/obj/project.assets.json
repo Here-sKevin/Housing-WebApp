@@ -11134,11 +11134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\PWEB_2324\\PWEB_2324\\PWEB_2324.csproj",
+      "projectUniqueName": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\2023_2024\\PWEB_2324\\PWEB_2324\\PWEB_2324.csproj",
       "projectName": "PWEB_2324",
-      "projectPath": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\PWEB_2324\\PWEB_2324\\PWEB_2324.csproj",
+      "projectPath": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\2023_2024\\PWEB_2324\\PWEB_2324\\PWEB_2324.csproj",
       "packagesPath": "C:\\Users\\KevinRodrigues\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\PWEB_2324\\PWEB_2324\\obj\\",
+      "outputPath": "C:\\Users\\KevinRodrigues\\Desktop\\ISEC\\2023_2024\\PWEB_2324\\PWEB_2324\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KevinRodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",

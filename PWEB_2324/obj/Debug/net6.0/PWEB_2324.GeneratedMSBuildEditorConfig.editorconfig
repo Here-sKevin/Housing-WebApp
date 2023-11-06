@@ -9,69 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PWEB_2324
 build_property.RootNamespace = PWEB_2324
-build_property.ProjectDir = C:\Users\KevinRodrigues\Desktop\ISEC\PWEB_2324\PWEB_2324\
+build_property.ProjectDir = C:\Users\KevinRodrigues\Desktop\ISEC\2023_2024\PWEB_2324\PWEB_2324\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\KevinRodrigues\Desktop\ISEC\PWEB_2324\PWEB_2324
+build_property.MSBuildProjectDirectory = C:\Users\KevinRodrigues\Desktop\ISEC\2023_2024\PWEB_2324\PWEB_2324
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Areas/Admin/Views/Admin/Index.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Admin/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Areas/Admin/Views/Shared/_ViewImports.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Admin/Views/Shared/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Areas/Admin/Views/Shared/_ViewStart.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Admin/Views/Shared/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Client/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENsaWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Client/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Client/Views/Shared/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Client/Views/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Employee/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Employee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Employee/Views/Shared/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Employee/Views/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Account/Login.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Manager/Views/Manager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Manager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Manager/Views/Shared/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Areas/Manager/Views/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Account/Register.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Home/Index.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Shared/Error.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Shared/_Carousel.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/_ViewImports.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/_ViewStart.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/KevinRodrigues/Desktop/ISEC/PWEB_2324/PWEB_2324/Views/Shared/_Layout.cshtml]
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c51lbwsinu
