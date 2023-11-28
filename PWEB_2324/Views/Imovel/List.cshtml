@@ -1,0 +1,35 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<PWEB_2324.Models.ImovelModel>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<form method="get" class="form-inline">
+    <input name="filter" class="form-control" placeholder="Localizacao" value="@Model.RouteValue["Filter"]" />
+    <button type="submit" class="btn btn-info">
+        <span>Procurar</span>
+    </button>
+
+</form>
+<div>
+    <vc:pager paging-list="@Model"></vc:pager>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 300px; justify-content: space-around; margin: auto; margin-top: 20px;">
+@foreach(var imovel in Model)
+{
+    
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@imovel.Title</h5>
+                <p class="card-text">@imovel.Description</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+ 
+}
+</div>
+

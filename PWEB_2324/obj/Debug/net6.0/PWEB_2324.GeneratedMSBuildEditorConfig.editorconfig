@@ -10,9 +10,11 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PWEB_2324
 build_property.RootNamespace = PWEB_2324
 build_property.ProjectDir = C:\Users\KevinRodrigues\Desktop\ISEC\2023_2024\PWEB_2324\PWEB_2324\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\KevinRodrigues\Desktop\ISEC\2023_2024\PWEB_2324\PWEB_2324
 build_property._RazorSourceGeneratorDebug = 
 
@@ -96,12 +98,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Home/Imoveis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbW92ZWlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Imovel/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1vdmVsXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/_Card.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/KevinRodrigues/Desktop/ISEC/2023_2024/PWEB_2324/PWEB_2324/Views/Shared/_Carousel.cshtml]

@@ -1,7 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PWEB_2324.Data;
+using PWEB_2324.Repositories;
+using PWEB_2324.Repositories.Interface;
 using PWEB_2324.Services;
+using ReflectionIT.Mvc.Paging;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +22,14 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
 
+builder.Services.AddTransient<IImoveisRepository, ImoveisRepository>();
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddPaging(options =>
+{
+    options.ViewName = "Bootstrap5";
+    options.PageParameterName = "page";
+});
 
 builder.Services.AddScoped<ISeedRole, SeedRole>();
 builder.Services.AddAuthorization(options =>
@@ -55,6 +65,8 @@ else
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
 
 
 
